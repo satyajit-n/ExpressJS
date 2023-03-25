@@ -50,4 +50,4 @@ const requestHandler = (req, res) => {
 // module.exports.author = "SAtyajeet Namawar";
 
 exports.handler = requestHandler;
-exports.author = "SAtyajeet Namawar";
+exports.author = "Satyajeet Namawar";
