@@ -41,7 +41,13 @@ const requestHandler = (req, res) => {
   // res.end();
 };
 
-module.exports = {
-    handler: requestHandler,
-    author : 'Satyajeet Namawar'
-};
+// module.exports = {
+//     handler: requestHandler,
+//     author : 'Satyajeet Namawar'
+// };
+
+// module.exports.handler = requestHandler;
+// module.exports.author = "SAtyajeet Namawar";
+
+exports.handler = requestHandler;
+exports.author = "SAtyajeet Namawar";
